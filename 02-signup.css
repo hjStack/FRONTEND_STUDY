@@ -1,0 +1,107 @@
+.pb {
+  width: 670px;
+  height: 960px;
+  top: 60px;
+  left: 625px;
+  border-radius: 20px;
+  border: 1px solid #aacdff;
+  position: relative;
+}
+
+.email-box {
+  position: absolute;
+  margin-top: 100px;
+  left: 110px;
+}
+
+.name {
+  position: absolute;
+  margin-top: 200px;
+  left: 110px;
+}
+
+.password {
+  position: absolute;
+  margin-top: 300px;
+  left: 110px;
+}
+
+.pswd-again {
+  position: absolute;
+  margin-top: 400px;
+  left: 110px;
+}
+
+h2 {
+  left: 100px;
+  right: 100px;
+  top: 50px;
+  color: cornflowerblue;
+  position: relative;
+}
+
+span {
+  width: 158px;
+  height: 23.65px;
+  position: fixed;
+}
+
+.custom-hr {
+  border: 1px solid #0068ff;
+  margin-top: 10px; /* 이메일 텍스트와의 간격 조절 */
+  margin-bottom: 20px; /* 다음 요소와의 간격 조절 */
+}
+
+hr {
+  border: 1px solid #cfcfcf;
+  width: 466px; /* 필요에 따라 너비 조절 */
+  margin-top: 50px; /* 위쪽 여백 조절 */
+  margin-bottom: 30px; /* 아래쪽 여백 조절 */
+  position: fixed;
+}
+
+.radio {
+  position: relative;
+  margin-top: 500px;
+  left: 110px;
+}
+
+.checkbox {
+  position: fixed;
+  width: 454px;
+  height: 21.06px;
+  top: 780px;
+  left: 772px;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+}
+
+.gen {
+  position: absolute;
+  width: 140px;
+  height: 23.94px;
+  top: 610px;
+  left: 300px;
+  border: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  position: relative;
+  width: 470px;
+  height: 75px;
+  top: 700px;
+  left: 100px;
+  border-radius: 10px;
+  border: 1px solid #0068ff;
+}
+
+#bt {
+  width: 70px;
+  height: 27px;
+  top: 899px;
+  left: 925px;
+  text-align: center;
+  color: #0068ff;
+}
