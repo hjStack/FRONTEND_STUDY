@@ -1,4 +1,3 @@
-<img width="773" alt="스크린샷 2025-01-05 오전 12 35 26" src="https://github.com/user-attachments/assets/8036d9a2-c5cd-49e4-93d3-41b7230baa89" /># FRONTEND_STUDY
 
 http://127.0.0.1:5500/class/01-html/signup.html
 => signup.html && 02-signup.css
