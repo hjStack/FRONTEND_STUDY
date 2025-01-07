@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.background {
+  width: 1024px;
+  height: 600px;
+  background-image: url("../images/background.png");
+  padding: 20px 0px 0px 20px;
+  /* padding은 맨 왼쪽부터 top이고 시계방향  */
+}
+
+.outerbox {
+  width: 808px;
+  height: 544px;
+  background-image: url("../images/outerbox.png");
+}
+
+.wrapper {
+  /* // 수평 정렬  */
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0px 0px 32px;
+}
+
+.wrapper__left {
+  width: 208px;
+  height: 472px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__left__header {
+  width: 100%;
+  /* // == 208px */
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* // 자식 박스를 가운데 정렬  */
+}
+
+.today {
+  font-size: 9px;
+  /* 부모 박스에 있는 CSS속성이 자식 박스로 상속이 됨  */
+}
+
+.wrapper__left__body {
+  width: 100%;
+  /* // == 208px */
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* // == 자식 박스를 수직으로 정렬할께 
+  항상 부모 박스에 자식 박스를 어떻게 정렬한건지 알려줘야됨 */
+  align-items: center;
+  padding: 20px 30px;
+}
+
+/* // % : 상대단위(부모 박스의 사이즈를 그 비율을 가지고 와서 입력된 박스의 
+사이즈로 적용 ) */
+
+.left__body__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.left__body__header__gray {
+  width: 148px;
+  height: 133px;
+  background-color: gray;
+}
+
+.left__body__header__line {
+  border-top: 1px dotted black;
+  margin: 12px 0px;
+  /* // 12px이 상하 여백을 결정하고 0px이 좌우 여백을 결정 */
+}
+
+/* profile 내용 */
+
+.left__body__profile {
+  width: 148px;
+  height: 185px;
+  background-color: white;
+  left: 82px;
+  top: 265px;
+  position: absolute;
+  font-size: 11px;
+}
+
+.info {
+  width: 65px;
+  height: 72px;
+
+  font-size: 10px;
+}
+
+.left__body__footer {
+  width: 148px;
+  height: 60px;
+  left: 82px;
+  top: 450px;
+  background-color: bisque;
+  position: absolute;
+}
+
+.feeling {
+  width: 99px;
+  height: 15px;
+  /* background-color: blueviolet; */
+  margin: 10px 10px;
+  font-size: 11px;
+  left: 90px;
+}
+
+#feeling__detail {
+  margin-top: 8px;
+}
+
+.wrapper__right {
+  width: 524px;
+  height: 472px;
+  background-color: orange;
+}
