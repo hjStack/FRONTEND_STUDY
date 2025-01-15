@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.background {
+  width: 1024px;
+  height: 600px;
+  /* background-color: bisque; */
+  background-image: url("../images/background.png");
+  padding: 20px 0px 0px 20px;
+  /* padding은 맨 왼쪽부터 top이고 시계방향  */
+}
+
+.outerbox {
+  width: 808px;
+  height: 544px;
+  background-image: url("../images/outerbox.png");
+}
+
+.wrapper {
+  /* // 수평 정렬  */
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0px 0px 32px;
+  /* background-color: aqua; */
+}
+
+.wrapper__left {
+  width: 208px;
+  height: 472px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__left__header {
+  width: 100%;
+  /* // 100%면 부모의 px따라감  */
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* // 자식 박스를 가운데 정렬  */
+}
+
+.today {
+  font-size: 9px;
+  /* 부모 박스에 있는 CSS속성이 자식 박스로 상속이 됨  */
+}
+
+.wrapper__left__body {
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px 0px 30px;
+}
+
+/* // % : 상대단위(부모 박스의 사이즈를 그 비율을 가지고 와서 입력된 박스의 
+사이즈로 적용 ) */
+
+.left__body__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left__body__header__gray {
+  width: 148px;
+  height: 133px;
+  background-color: gray;
+}
+
+.left__body__header__line {
+  border-top: 1px dotted black;
+  margin: 12px 0px;
+  /* // 12px이 상하 여백을 결정하고 0px이 좌우 여백을 결정 ⭐️ */
+}
+
+/* profile 내용 */
+
+.left__body__profile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* background-color: orange; */
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.left__body__footer {
+  /* width: 100%; */
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.wrapper__feel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* background-color: orange; */
+  margin: 175px 20px;
+  margin-left: -10px;
+}
+
+.feeling {
+  font-size: 11px;
+  margin-bottom: 5px;
+  color: gray;
+  top: 20px; /* 부모 요소를 기준으로 20px 아래로 이동 */
+}
+
+.wrapper__right {
+  width: 524px;
+  height: 472px;
+  background-color: pink;
+}
