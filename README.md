@@ -12,3 +12,7 @@ DAY1 - 왼쪽 사이드 바 만들기
 DAY2 - 오른쪽 사이드바 만들기
 
 <img width="1116" alt="스크린샷 2025-01-21 오전 12 54 42" src="https://github.com/user-attachments/assets/7f28afa2-7709-4ffc-b0cf-3bb5890dc181" />
+
+DAY3 - 항목 추가   
+
+![image](https://github.com/user-attachments/assets/ca22daf2-1998-47b8-ac01-d1a1f815d64e)
