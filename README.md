@@ -16,3 +16,8 @@ DAY2 - 오른쪽 사이드바 만들기
 DAY3 - 항목 추가   
 
 ![image](https://github.com/user-attachments/assets/ca22daf2-1998-47b8-ac01-d1a1f815d64e)
+
+
+DAT4 - 끝말잇기 기능 구현
+
+<img width="1413" alt="스크린샷 2025-02-04 오후 10 57 32" src="https://github.com/user-attachments/assets/56942b1e-8f5b-4c81-a0f3-536f6d030358" />
